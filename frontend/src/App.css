@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  background-color: #f4f7f6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-container {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+  margin-top: 40px !important;
+}
+
+input {
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2980b9 !important;
+  box-shadow: 0 0 0 3px rgba(41, 128, 185, 0.2);
+}
+
+button:hover:not(:disabled) {
+  background-color: #1c5980 !important;
+  transform: translateY(-1px);
+}
+
+button:disabled {
+  background-color: #95a5a6 !important;
+  cursor: not-allowed;
+}
+
+/* Styling Markdown agar rapi */
+h3, h4 {
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 8px;
+}
+
+p {
+  color: #34495e;
+}
+
+ul, ol {
+  color: #34495e;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+}
